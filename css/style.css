@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #024697;
+    --primary: #32C36C;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
@@ -78,11 +78,6 @@
 }
 
 /*** Navbar ***/
-
-.logo{
-    margin-top: 20px;
-}
-
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -420,7 +415,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -431,7 +426,7 @@
     right: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -578,9 +573,4 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
-}
-
-.calculate{
-    text-align: center
-    ;
 }

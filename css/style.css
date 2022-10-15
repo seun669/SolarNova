@@ -579,3 +579,8 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.calculate{
+    text-align: center
+    ;
+}

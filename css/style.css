@@ -415,7 +415,7 @@ transition: .5s;
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(235, 237, 245) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -426,7 +426,7 @@ transition: .5s;
     right: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to left, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
+    background: inear-gradientl(to left, rgb(245, 245, 248) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 

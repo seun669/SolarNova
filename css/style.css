@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #024697;
+    --primary: #32C36C;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
@@ -78,11 +78,6 @@
 }
 
 /*** Navbar ***/
-
-.logo{
-    margin-top: 20px;
-}
-
 .navbar.sticky-top {
     top: -100px;
 transition: .5s;
@@ -420,7 +415,7 @@ transition: .5s;
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -431,7 +426,7 @@ transition: .5s;
     right: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgb(7, 19, 98) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -580,111 +575,7 @@ transition: .5s;
     color: var(--primary);
 }
 
-<<<<<<< HEAD
-calculate{
+.calculate{
     text-align: center
     ;
 }
-
-
-
-
-
-
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-=======
->>>>>>> 400a277d7c23776d2a50238bea34ec3d092b22ba

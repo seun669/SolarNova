@@ -80,7 +80,7 @@
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+transition: .5s;
 }
 
 .navbar .navbar-brand,
@@ -212,7 +212,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/blog1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -573,4 +573,9 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.calculate{
+    text-align: center
+    ;
 }

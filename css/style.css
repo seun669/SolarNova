@@ -85,7 +85,7 @@
 
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+transition: .5s;
 }
 
 .navbar .navbar-brand,
@@ -580,6 +580,7 @@
     color: var(--primary);
 }
 
+<<<<<<< HEAD
 calculate{
     text-align: center
     ;
@@ -685,3 +686,5 @@ img {
 .demo:hover {
   opacity: 1;
 }
+=======
+>>>>>>> 400a277d7c23776d2a50238bea34ec3d092b22ba

@@ -85,7 +85,7 @@
 
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+transition: .5s;
 }
 
 .navbar .navbar-brand,
@@ -578,4 +578,9 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.calculate{
+    text-align: center
+    ;
 }

@@ -37,6 +37,12 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            box-sizing: border-box;
+        }
+
+        #calc_table{ 
+            border: none;
+            padding: 20px 100px;
         }
         .calc_btn{
             background-color: #024697;
@@ -81,6 +87,22 @@
          .call_btn:active{
             opacity: 0.7;
          }
+         
+        .app {
+            text-align: right;
+           
+        }
+
+        .wattage{
+            padding: 2px;
+           
+        }
+        thead{
+            text-align: end;
+            margin-left: 50px;
+            padding: 20px;
+        }
+         
 
          /* calculator styling ends */
          
@@ -103,7 +125,7 @@
              position: relative;
             border: 3px solid #ef800d;
              border-radius: 25px;
-            padding: 20px 0;
+            padding: 10px 0;
             margin: 20px auto;   
             width: 50vw;
             align-self: center;
@@ -193,14 +215,14 @@
     
 
     <!-- Load calculator Start -->
-    <div class="row g-4">
+    <div class="row g-4" id="calc_table">
         <div class="col-lg-4 col-md-6">
             <table class="table">
                 <thead>
                     <tr>
                         <td></td>
-                        <td>Appliances</td>
-                        <td>Watts</td>
+                        <td class="app" >Appliances</td>
+                         <td class="wattage">Watts</td>
                     </tr>
                 </thead>
                 <tbody>
@@ -293,8 +315,8 @@
                 <thead>
                     <tr>
                         <td></td>
-                        <td>Appliances</td>
-                        <td>Watts</td>
+                        <td class="app">Appliances</td>
+                         <td class="wattage">Watts</td>
                     </tr>
                 </thead>
                 <tbody>
@@ -388,8 +410,8 @@
                 <thead>
                     <tr>
                         <td></td>
-                        <td>Appliances</td>
-                        <td>Watts</td>
+                        <td class="app">Appliances</td>
+                         <td class="wattage">Watts</td>
                     </tr>
                 </thead>
                 <tbody>
@@ -515,42 +537,43 @@
                     <h5 class="text-white mb-4">Address</h5>
                     <p class="mb-2" style="color: #ef800d;"><i class="fa fa-map-marker-alt me-3" style="color: #ef800d;"></i>123 Sahara Desert, Africa</p>
                     <p class="mb-2" style="color: #ef800d;"><i class="fa fa-phone-alt me-3" style="color: #ef800d;"></i>+012 345 67890</p>
-                    <p class="mb-2" style="color: #ef800d;"><i class="fa fa-envelope me-3" style="color: #ef800d;"></i>solarnova@technocrats.com</p>
+                    <p class="mb-2" style="color: #ef800d;"><i class="fa fa-envelope me-3" style="color: #ef800d;"></i>solarnova@wt.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter" style="color: #1D9BF0;"></i></a>
-                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #1771E6;"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #ff0000;"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #2662a9;"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter" style="color: #ef800d;"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #ef800d;"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #ef800d;"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href="" style="color: #ef800d;"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="" >About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="index.html" >Home</a>
+                    <a class="btn btn-link" href="about.html" >About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="products.html">Our Products</a>
+                    <a class="btn btn-link" href="quote.html">Calculate Load</a>
+                    <a class="btn btn-link" href="blog.html">Blog</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Product Gallery</h5>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="./img/500-liter-ETC-solar-water-heater.jpg" alt="" width="100px">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="./img/img-4.jpg" width="120px" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/water irrigation 1.jpg" width="100px" alt="">
                         </div>
                         <div class="col-4">
                             <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/img-9.jpg" alt="" width="120px">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/img-13.jpeg" alt="" width="100px">
                         </div>
                     </div>
                 </div>

@@ -578,3 +578,6 @@ transition: .5s;
     color: var(--primary);
 }
 
+.logo{
+    margin-top: 20px;
+}

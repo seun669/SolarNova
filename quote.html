@@ -40,10 +40,10 @@
             box-sizing: border-box;
         }
 
-        #calc_table{ 
+        /* #calc_table{ 
             border: none;
-            padding: 20px 100px;
-        }
+            padding: 20px 80px;
+        } */
         .calc_btn{
             background-color: #024697;
             border: none;
@@ -78,7 +78,7 @@
             cursor: pointer;
             transition: background-color 0.2s;
             margin-top: 20px; 
-            margin-bottom: 150px; 
+            margin-bottom: 15px; 
         }
         .call_btn:hover{
         background-color: #02254e;
@@ -102,7 +102,33 @@
             margin-left: 50px;
             padding: 20px;
         }
+
+        .total_load{
+            text-align: center;
+            margin: 10px;
+        }
          
+        .reset{
+            background-color: #024697;
+            border: none;
+            border-radius: 3px;
+            padding: 4px 10px;
+           color: #fff;
+           font-size: 14px;
+        }
+
+        .reset_btn{
+            text-align: center;
+            margin-bottom: 150px;
+        }
+
+        .reset:hover{
+        background-color: #02254e;
+         }
+
+         .reset:active{
+            opacity: 0.7;
+         }
 
          /* calculator styling ends */
          
@@ -348,7 +374,17 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
+                        <td class="appliance">Desktop computer</td>
+                        <td class="watt">200</td>
+                    </tr>
+                   
+                   <tr>
+                        <td>
+                            <button class="calc_btn">+</button>
+                        </td><td>
+                            <button class="calc_btn">-</button>
+                        </td>
+                        <td class="appliance">Refridgerator</td>
                         <td class="watt">4000</td>
                     </tr>
                    <tr>
@@ -357,8 +393,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                       <td class="appliance">Refridgerator(165-250Ltr)</td>
+                        <td class="watt">150</td>
                     </tr>
                    <tr>
                         <td>
@@ -366,8 +402,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                       <td class="appliance">Refridgerator(250-350Ltr)</td>
+                        <td class="watt">210</td>
                     </tr>
                    <tr>
                         <td>
@@ -375,27 +411,10 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                       <td class="appliance">Refridgerator(350-450Ltr)</td>
+                        <td class="watt">320</td>
                     </tr>
-                   <tr>
-                        <td>
-                            <button class="calc_btn">+</button>
-                        </td><td>
-                            <button class="calc_btn">-</button>
-                        </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
-                    </tr>
-                   <tr>
-                        <td>
-                            <button class="calc_btn">+</button>
-                        </td><td>
-                            <button class="calc_btn">-</button>
-                        </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </div>
@@ -415,8 +434,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">Refridgerator(>450Ltr)</td>
+                        <td class="watt">460</td>
                     </tr>
                    <tr>
                         <td>
@@ -424,8 +443,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">AC-1HP</td>
+                        <td class="watt">1120</td>
                     </tr>
                    <tr>
                         <td>
@@ -433,8 +452,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                         <td class="appliance">AC-1.5HP</td>
+                        <td class="watt">1830</td>
                     </tr>
                    <tr>
                         <td>
@@ -442,8 +461,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                         <td class="appliance">AC-2HP</td>
+                        <td class="watt">2500</td>
                     </tr>
                    <tr>
                         <td>
@@ -451,8 +470,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">Smoke detector</td>
+                        <td class="watt">5</td>
                     </tr>
                    <tr>
                         <td>
@@ -460,8 +479,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">1 HP well pump</td>
+                        <td class="watt">1050</td>
                     </tr>
                    <tr>
                         <td>
@@ -469,8 +488,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">Hair dryer</td>
+                        <td class="watt">1540</td>
                     </tr>
                    <tr>
                         <td>
@@ -478,8 +497,8 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">Electric water heater</td>
+                        <td class="watt">5000</td>
                     </tr>
                    <tr>
                         <td>
@@ -487,17 +506,31 @@
                         </td><td>
                             <button class="calc_btn">-</button>
                         </td>
-                        <td class="appliance">Washing Machine</td>
-                        <td class="watt">4000</td>
+                        <td class="appliance">Dehumidifier</td>
+                        <td class="watt">785</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
+   <div class="total_load">
+       <label for=""><h6>Total Max Watt-Hours/Day:</h6></label>
+        <input type="text" readonly class="total_load">
+   </div>
+   <div class="total_load">
+    <label for=""><h6>Total Average Watt-Hours/Day:</h6></label>
+     <input type="text" readonly class="total_load">
+</div>
     <div class="calculate_btn">
         <button class="call_btn">
             Calculate Load
+        </button>
+    </div>
+
+    <div class="reset_btn">
+        <button class="reset">
+            Reset
         </button>
     </div>
 
@@ -517,7 +550,7 @@
             <div class="calc_calc">
                 <h4>Need to know what solar solution would fit your electricity needs? </h4>
                 <p>Use our electrical load calculator to find the best system for you</p>
-                <a href="financing.html">
+                <a href="quote.html">
                     <button class="plan_btn">CALCULATE LOAD</button>
                 </a>
             </div>

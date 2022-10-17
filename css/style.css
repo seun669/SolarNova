@@ -530,6 +530,7 @@ transition: .5s;
     border: 1px solid #9B9B9B;
     border-radius: 38px;
     transition: .3s;
+    
 }
 
 .footer .btn.btn-social:hover {
@@ -546,6 +547,7 @@ transition: .5s;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    color: #ef800d;
 }
 
 .footer .btn.btn-link::before {
@@ -554,6 +556,7 @@ transition: .5s;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
+    
 }
 
 .footer .btn.btn-link:hover {

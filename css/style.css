@@ -508,6 +508,9 @@ transition: .5s;
     .contact-text  {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
+
+    
+
 }
 
 @media (min-width: 1200px) {
